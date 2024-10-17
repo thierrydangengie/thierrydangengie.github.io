@@ -8,9 +8,18 @@
 <body>
 
 <div class="center_div">
-  <h1>Bonjour!</h1>
-  <p>Je teste le déploiement de mon site internet avec github io</p>
-  <input id="a" type="number"></input> + <input id="b" type="number></input>=<p id="result"></p>
+  <h1>Calculatrice</h1>
+  <p>Les operations + - / *</p>
+  <div>
+  <input id="a" type="number"></input> 
+  <select name="operations" id="operations">
+    <option value="plus">+</option>
+    <option value="moins">-</option>
+    <option value="division">/</option>
+    <option value="multiplication">*</option>
+  </select>
+  <input id="b" type="number"></input> = <span id="result"></span>
+  </div>
   <button>Valider</button>
 </div>
 
